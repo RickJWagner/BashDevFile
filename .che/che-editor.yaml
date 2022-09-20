@@ -1,0 +1,5 @@
+id: eclipse/che-theia/next            # mandatory
+override:                             # optional
+  containers:
+    - name: theia-ide
+      memoryLimit: 1280Mi
